@@ -8,8 +8,9 @@ Knative Python Functions.
 ```
 .
 ├── cmd
-│   └── fhttp     - Example usage of HTTP Middleware
-├── http
-│   ├── serve.py  - HTTP Middleware
-└── README.md     - This Readme
+│   └── fhttp         - Example usage of HTTP Middleware
+├── src
+│   └── http
+│       └── serve.py  - HTTP Middleware
+└── README.md         - This Readme
 ```
