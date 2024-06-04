@@ -1,6 +1,6 @@
 import argparse
 import logging
-import func_python.http
+import parliament.http
 
 logging.basicConfig(level=logging.INFO)
 
@@ -65,7 +65,7 @@ def new():
 if __name__ == "__main__":
     if args.static:
         logging.info("Starting static handler")
-        func_python.http.serve(handle)
+        parliament.http.serve(handle)
     else:
         logging.info("Starting new instance")
-        func_python.http.serve(new)
+        parliament.http.serve(new)
