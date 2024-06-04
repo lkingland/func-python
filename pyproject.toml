@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "parliament"
+version = "0.2"
+description = "Functions Python middleware"
+readme = "README.md"
+keywords = ["faas", "serverless", "func", "functions" ]
+dependencies = [
+    "hypercorn"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/parliament"]
+
+[project.urls]
+Homepage = "https://github.com/knative-extensions/func-python"
+Issues = "https://github.com/knative-extensions/func-python/issues"

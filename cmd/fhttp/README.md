@@ -15,9 +15,9 @@ Activate the virtual environment:
 ```bash
 source ./venv/bin/activate
 ```
-Ensure the requirements are installed:
+Install parliament from local source:
 ```bash
-pip install -r requirements.txt
+pip install -e ../..
 ```
 Run the application:
 ```bash
